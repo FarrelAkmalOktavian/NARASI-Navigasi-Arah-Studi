@@ -67,7 +67,7 @@
     "question": "Murid atau adik mengantuk saat kamu jelaskan, kamu...",
     "answers": [
       { "id": "a", "text": "Bilang \"ini ada konsekuensi hukumnya lho\"", "image": "assets/image/q8a.png", "scores": { "analytical": 2, "economic": 1 } },
-      { "id": "b", "text": "Bikin kuis dadakan atau bernyanyi", "image": "assets/image/q8c.png", "scores": { "teaching": 2, "social": 1 } },
+      { "id": "b", "text": "Bikin kuis dadakan atau bernyanyi", "image": "assets/image/q8b.png", "scores": { "teaching": 2, "social": 1 } },
       { "id": "c", "text": "Lanjut menjelaskan dengan penuh semangat", "image": "assets/image/q8c.png", "scores": { "spiritual": 2, "language": 1 } }
     ]
   },
