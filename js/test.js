@@ -39,7 +39,7 @@ function renderQuestion() {
   // Teks pertanyaan
   el.question.textContent = question.question;
 
-  // Pilihan jawaban (radio button asli agar bisa dipakai dengan keyboard)
+    // Pilihan jawaban (radio button asli agar bisa dipakai dengan keyboard)
   el.answers.innerHTML = "";
   question.answers.forEach(function (answer) {
     const label = document.createElement("label");
@@ -54,11 +54,25 @@ function renderQuestion() {
       selectAnswer(question.id, answer.id);
     });
 
+    const box = document.createElement("div");
+    box.className = "option-box";
+
+    // Jika jawaban memiliki gambar valid, render elemen gambar
+    if (answer.image && answer.image.trim() !== "") {
+      const img = document.createElement("img");
+      img.className = "option-img";
+      img.src = answer.image;
+      img.alt = answer.text;
+      box.appendChild(img);
+    }
+
     const text = document.createElement("span");
     text.className = "option-text";
     text.textContent = answer.text;
 
-    label.append(input, text);
+    // 👉 Masukkan text ke dalam box, lalu masukkan box ke dalam label
+    box.appendChild(text);
+    label.append(input, box);
     el.answers.appendChild(label);
   });
 

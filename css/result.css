@@ -90,7 +90,12 @@
 .radar svg { display: block; width: 100%; max-width: 440px; margin: 0 auto; }
 .radar-ring { fill: none; stroke: var(--line); stroke-width: 1; }
 .radar-axis { stroke: var(--line); stroke-width: 1; }
-.radar-area { fill: rgba(14, 124, 134, 0.22); stroke: var(--teal); stroke-width: 2.5; stroke-linejoin: round; }
+.radar-area { 
+  fill: rgba(0, 99, 176, 0.18); 
+  stroke: var(--teal); 
+  stroke-width: 2.5; 
+  stroke-linejoin: round; 
+}
 .radar-dot { fill: var(--teal); stroke: #fff; stroke-width: 2; }
 .radar-label { fill: var(--ink); font-size: 13px; }
 .radar-name { font-weight: 700; }

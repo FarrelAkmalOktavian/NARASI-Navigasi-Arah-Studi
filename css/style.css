@@ -1,13 +1,14 @@
-/* ===== Design tokens (dipakai semua halaman) ===== */
+/* ===== Design tokens (Palet Baru) ===== */
 :root {
-  --bg: #f2f6f8;
-  --surface: #ffffff;
-  --ink: #12263a;
-  --ink-soft: #52667a;
-  --line: #cfdbe3;
-  --teal: #0e7c86;
-  --teal-dark: #0a5f67;
-  --amber: #f2a93b;
+  --bg: #ffffff;             /* Background putih bersih */
+  --surface: #ffffff;        /* Warna permukaan kartu */
+  --ink: #2b547e;            /* Teks judul & teks utama */
+  --ink-soft: #5b7999;       /* Teks deskripsi / sekunder */
+  --line: #d8e5f2;           /* Garis pemisah & border */
+  --teal: #0063b0;           /* Warna utama (Primary Blue) */
+  --teal-dark: #1f63b0;      /* Warna hover tombol */
+  --amber: #fdb41e;          /* Warna aksen kuning/emas */
+  --light-blue: #a7cae5;     /* Biru muda lembut */
   --radius: 14px;
 }
 

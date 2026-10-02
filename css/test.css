@@ -65,7 +65,10 @@ legend:focus { outline: none; }
   gap: 12px;
 }
 
-.option { display: block; cursor: pointer; }
+.option {
+  display: block;
+  cursor: pointer;
+}
 
 /* Radio asli disembunyikan secara visual, tetap bisa difokus keyboard */
 .option input {
@@ -75,14 +78,67 @@ legend:focus { outline: none; }
   height: 1px;
 }
 
-.option-text {
-  display: block;
+.option-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   position: relative;
   padding: 14px 16px 14px 48px;
   border: 2px solid var(--line);
   border-radius: 12px;
   background: var(--surface);
   transition: border-color 0.15s, background-color 0.15s;
+}
+
+/* Lingkaran radio buatan */
+.option-box::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  border: 2px solid var(--ink-soft);
+  border-radius: 50%;
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+/* Gambar pada pilihan jawaban */
+.option-img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+}
+
+.option-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.option:hover .option-box {
+  border-color: var(--ink-soft);
+}
+
+.option input:checked + .option-box {
+  border-color: var(--teal);
+  background: #edf5fb;
+  font-weight: 700;
+}
+
+.option input:checked + .option-box::before {
+  border-color: var(--teal);
+  background: radial-gradient(circle, var(--teal) 45%, var(--surface) 50%);
+}
+
+.option input:focus-visible + .option-box {
+  outline: 3px solid var(--amber);
+  outline-offset: 2px;
 }
 
 /* Lingkaran radio buatan */
