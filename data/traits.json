@@ -1,0 +1,38 @@
+[
+  {
+    "id": "analytical",
+    "name": "Analitis",
+    "description": "Kemampuan berpikir logis, teliti, dan berbasis data.",
+    "max_score": 48
+  },
+  {
+    "id": "creativity",
+    "name": "Kreativitas",
+    "description": "Kecenderungan menghasilkan ide dan pendekatan baru.",
+    "max_score": 48
+  },
+  {
+    "id": "social",
+    "name": "Sosial",
+    "description": "Kepedulian dan kemampuan bekerja sama dengan orang lain.",
+    "max_score": 57
+  },
+  {
+    "id": "leadership",
+    "name": "Kepemimpinan",
+    "description": "Kemampuan mengarahkan, mengorganisir, dan mengambil keputusan.",
+    "max_score": 47
+  },
+  {
+    "id": "technical",
+    "name": "Teknis",
+    "description": "Minat membuat, merakit, dan mengoperasikan sesuatu secara praktis.",
+    "max_score": 43
+  },
+  {
+    "id": "curiosity",
+    "name": "Keingintahuan",
+    "description": "Dorongan untuk meneliti, mempelajari, dan memahami hal baru.",
+    "max_score": 40
+  }
+]

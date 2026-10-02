@@ -1,0 +1,44 @@
+[
+  {
+    "id": "teknik_teknologi",
+    "name": "Teknik & Teknologi",
+    "description": "Suka memecahkan masalah dengan logika dan membuat sesuatu yang berfungsi.",
+    "majors": ["Teknik Informatika", "Teknik Mesin", "Teknik Sipil", "Teknik Elektro"],
+    "trait_weights": { "technical": 0.4, "analytical": 0.35, "curiosity": 0.25 }
+  },
+  {
+    "id": "sains_kesehatan",
+    "name": "Sains & Kesehatan",
+    "description": "Penasaran dengan cara kerja alam dan peduli pada kesehatan manusia.",
+    "majors": ["Kedokteran", "Farmasi", "Biologi", "Kimia", "Gizi"],
+    "trait_weights": { "curiosity": 0.4, "analytical": 0.3, "social": 0.3 }
+  },
+  {
+    "id": "bisnis_manajemen",
+    "name": "Bisnis & Manajemen",
+    "description": "Pandai mengatur, memimpin, dan mengambil keputusan strategis.",
+    "majors": ["Manajemen", "Akuntansi", "Bisnis Digital", "Ekonomi"],
+    "trait_weights": { "leadership": 0.45, "analytical": 0.3, "social": 0.25 }
+  },
+  {
+    "id": "sosial_humaniora",
+    "name": "Sosial & Humaniora",
+    "description": "Tertarik memahami manusia, masyarakat, budaya, dan bahasa.",
+    "majors": ["Psikologi", "Hubungan Internasional", "Ilmu Komunikasi", "Sosiologi", "Sastra"],
+    "trait_weights": { "social": 0.45, "curiosity": 0.3, "leadership": 0.25 }
+  },
+  {
+    "id": "seni_desain",
+    "name": "Seni & Desain",
+    "description": "Punya ide orisinal dan senang mengekspresikannya secara visual.",
+    "majors": ["Desain Komunikasi Visual", "Arsitektur", "Seni Rupa", "Film & Animasi"],
+    "trait_weights": { "creativity": 0.55, "technical": 0.25, "curiosity": 0.2 }
+  },
+  {
+    "id": "pendidikan",
+    "name": "Pendidikan",
+    "description": "Senang membimbing, menjelaskan, dan membantu orang lain berkembang.",
+    "majors": ["Pendidikan Guru", "Bimbingan Konseling", "Pendidikan Anak Usia Dini"],
+    "trait_weights": { "social": 0.45, "leadership": 0.3, "creativity": 0.25 }
+  }
+]

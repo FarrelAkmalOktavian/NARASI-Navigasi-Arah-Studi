@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Saat mengerjakan tugas kelompok, peran apa yang paling sering kamu ambil?",
+    "answers": [
+      { "id": "a", "text": "Memimpin dan membagi tugas ke anggota", "scores": { "leadership": 5, "social": 2 } },
+      { "id": "b", "text": "Mencari data dan menganalisisnya", "scores": { "analytical": 5, "curiosity": 2 } },
+      { "id": "c", "text": "Membuat ide dan tampilan visualnya", "scores": { "creativity": 5, "technical": 2 } },
+      { "id": "d", "text": "Menjaga suasana dan membantu teman yang kesulitan", "scores": { "social": 5, "leadership": 2 } }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Kegiatan belajar apa yang paling bikin kamu betah berjam-jam?",
+    "answers": [
+      { "id": "a", "text": "Matematika, Fisika, atau coding", "scores": { "analytical": 5, "technical": 3 } },
+      { "id": "b", "text": "Biologi, Kimia, atau eksperimen", "scores": { "curiosity": 5, "analytical": 2 } },
+      { "id": "c", "text": "Seni, musik, atau menulis", "scores": { "creativity": 5, "curiosity": 2 } },
+      { "id": "d", "text": "Sejarah, Sosiologi, atau bahasa", "scores": { "social": 4, "curiosity": 3 } }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Ketika menghadapi masalah yang rumit, apa yang biasanya kamu lakukan?",
+    "answers": [
+      { "id": "a", "text": "Memecahnya menjadi bagian kecil dan menyelesaikannya satu per satu", "scores": { "analytical": 5, "technical": 2 } },
+      { "id": "b", "text": "Mencoba berbagai cara sampai ada yang berhasil", "scores": { "technical": 4, "creativity": 3 } },
+      { "id": "c", "text": "Berdiskusi dengan orang lain untuk mencari solusi", "scores": { "social": 5, "leadership": 2 } },
+      { "id": "d", "text": "Mencari ide yang belum terpikirkan orang lain", "scores": { "creativity": 5, "curiosity": 2 } }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Kalau punya waktu luang di akhir pekan, proyek apa yang paling ingin kamu kerjakan?",
+    "answers": [
+      { "id": "a", "text": "Membuat aplikasi atau merakit alat sendiri", "scores": { "technical": 5, "creativity": 2 } },
+      { "id": "b", "text": "Mengorganisir acara atau komunitas", "scores": { "leadership": 5, "social": 3 } },
+      { "id": "c", "text": "Meneliti hal yang bikin penasaran", "scores": { "curiosity": 5, "analytical": 3 } },
+      { "id": "d", "text": "Menjadi relawan untuk kegiatan sosial", "scores": { "social": 5, "leadership": 2 } }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Orang-orang di sekitarmu paling sering menggambarkan kamu sebagai orang yang...",
+    "answers": [
+      { "id": "a", "text": "Pemimpin alami", "scores": { "leadership": 5, "social": 2 } },
+      { "id": "b", "text": "Pendengar yang baik dan peduli", "scores": { "social": 5, "curiosity": 2 } },
+      { "id": "c", "text": "Kreatif dan punya cara berpikir unik", "scores": { "creativity": 5, "curiosity": 1 } },
+      { "id": "d", "text": "Teliti dan logis", "scores": { "analytical": 5, "technical": 2 } }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Profesi mana yang menurutmu paling menarik?",
+    "answers": [
+      { "id": "a", "text": "Insinyur atau programmer", "scores": { "technical": 5, "analytical": 3 } },
+      { "id": "b", "text": "Dokter atau peneliti", "scores": { "curiosity": 4, "social": 3 } },
+      { "id": "c", "text": "Pengusaha atau manajer", "scores": { "leadership": 5, "analytical": 2 } },
+      { "id": "d", "text": "Desainer, seniman, atau penulis", "scores": { "creativity": 5, "curiosity": 2 } }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Cara belajar apa yang paling cocok untukmu?",
+    "answers": [
+      { "id": "a", "text": "Langsung praktik dan mencoba sendiri", "scores": { "technical": 5, "curiosity": 2 } },
+      { "id": "b", "text": "Membaca dan memahami teorinya dulu", "scores": { "analytical": 4, "curiosity": 4 } },
+      { "id": "c", "text": "Berdiskusi dan belajar bersama teman", "scores": { "social": 5, "leadership": 2 } },
+      { "id": "d", "text": "Mengerjakan proyek kreatif", "scores": { "creativity": 5, "technical": 2 } }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Kalau diberi dana untuk satu proyek, kamu akan memakainya untuk...",
+    "answers": [
+      { "id": "a", "text": "Memulai dan mengembangkan usaha kecil", "scores": { "leadership": 4, "analytical": 3 } },
+      { "id": "b", "text": "Membeli alat atau peralatan laboratorium", "scores": { "technical": 4, "curiosity": 4 } },
+      { "id": "c", "text": "Membuat program bantuan untuk masyarakat", "scores": { "social": 5, "leadership": 3 } },
+      { "id": "d", "text": "Membuat karya seni atau konten", "scores": { "creativity": 5, "social": 2 } }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Saat menghadapi tenggat waktu yang mepet, apa yang kamu lakukan?",
+    "answers": [
+      { "id": "a", "text": "Mengatur prioritas dan menyusun strategi", "scores": { "leadership": 4, "analytical": 4 } },
+      { "id": "b", "text": "Fokus mengerjakan detailnya satu per satu", "scores": { "analytical": 5, "technical": 2 } },
+      { "id": "c", "text": "Menyemangati tim agar tetap tenang dan kompak", "scores": { "social": 5, "leadership": 2 } },
+      { "id": "d", "text": "Mencari cara baru yang lebih cepat", "scores": { "creativity": 4, "technical": 3 } }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Berita atau video apa yang paling sering kamu klik?",
+    "answers": [
+      { "id": "a", "text": "Teknologi dan gadget terbaru", "scores": { "technical": 5, "curiosity": 3 } },
+      { "id": "b", "text": "Penemuan sains dan kesehatan", "scores": { "curiosity": 5, "analytical": 2 } },
+      { "id": "c", "text": "Isu sosial, budaya, dan kehidupan manusia", "scores": { "social": 5, "curiosity": 2 } },
+      { "id": "d", "text": "Bisnis dan kisah sukses tokoh", "scores": { "leadership": 5, "analytical": 2 } }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Bagaimana caramu mengambil keputusan penting?",
+    "answers": [
+      { "id": "a", "text": "Berdasarkan data dan fakta", "scores": { "analytical": 5, "curiosity": 2 } },
+      { "id": "b", "text": "Berdasarkan intuisi dan rasa estetika", "scores": { "creativity": 4, "social": 2 } },
+      { "id": "c", "text": "Mempertimbangkan dampaknya bagi orang lain", "scores": { "social": 5, "analytical": 2 } },
+      { "id": "d", "text": "Berani mengambil risiko demi hasil yang besar", "scores": { "leadership": 5, "creativity": 2 } }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Apa yang paling ingin kamu capai di masa depan?",
+    "answers": [
+      { "id": "a", "text": "Menciptakan inovasi teknologi", "scores": { "technical": 5, "creativity": 3 } },
+      { "id": "b", "text": "Menemukan sesuatu yang baru di bidang ilmu pengetahuan", "scores": { "curiosity": 5, "analytical": 3 } },
+      { "id": "c", "text": "Membantu atau mengajar banyak orang", "scores": { "social": 5, "leadership": 2 } },
+      { "id": "d", "text": "Memimpin organisasi atau perusahaan sendiri", "scores": { "leadership": 5, "social": 2 } }
+    ]
+  }
+]
