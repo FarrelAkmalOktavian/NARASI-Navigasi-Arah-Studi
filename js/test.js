@@ -25,6 +25,11 @@ function renderQuestion() {
   const question = state.questions[state.index];
   const selected = state.answers[question.id];
 
+  // 👉 Putar sound effect saat pertanyaan baru ditampilkan
+  if (typeof SoundManager !== "undefined") {
+    SoundManager.playQuestionSFX();
+  }
+
   // Nomor + progress bar
   const percent = Math.round((number / total) * 100);
   el.counter.textContent = "Pertanyaan " + number + " dari " + total;

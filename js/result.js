@@ -112,6 +112,11 @@ async function init() {
     renderTopTraits(result.traits);
     renderBars(byId("other-categories"), result.categories.slice(2));
 
+    // 👉 Putar sound effect saat hasil asesmen muncul
+    if (typeof SoundManager !== "undefined") {
+      SoundManager.playResultSFX();
+    }
+
     byId("retake-btn").addEventListener("click", retakeTest);
     byId("status").hidden = true;
     byId("result").hidden = false;

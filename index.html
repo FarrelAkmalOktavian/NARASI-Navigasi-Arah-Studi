@@ -12,14 +12,17 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">Navigasi Studi</a>
+    <a class="brand" href="index.html">
+      <img src="assets/image/logo.jpeg" alt="Logo NARASI" class="brand-logo">
+      <span>Navigasi Studi</span>
+    </a>
   </header>
 
   <main class="hero">
     <div class="hero-text">
       <h1>Kuliah di bidang apa yang paling cocok untukmu?</h1>
       <p class="lead">
-        Jawab 12 pertanyaan singkat tentang caramu belajar, bekerja, dan berpikir.
+        Jawab 10 pertanyaan singkat tentang caramu belajar, bekerja, dan berpikir.
         Kamu akan mendapat gambaran arah studi yang sesuai dengan kecenderunganmu.
       </p>
       <a class="btn btn-primary" href="test.html">Mulai Tes</a>
@@ -27,30 +30,21 @@
     </div>
 
     <div class="hero-visual">
-      <svg viewBox="0 0 400 360" role="img" aria-label="Diagram kompas dengan enam arah studi: Teknik, Sains, Bisnis, Sosial, Seni, dan Pendidikan">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Diagram kompas dengan tiga arah studi: Hukum Ekonomi Syariah, Pendidikan Agama Islam, dan Ilmu Al-Qur&#39;an dan Tafsir">
         <g class="compass-lines">
           <line x1="200" y1="180" x2="200" y2="60"/>
-          <line x1="200" y1="180" x2="304" y2="120"/>
           <line x1="200" y1="180" x2="304" y2="240"/>
-          <line x1="200" y1="180" x2="200" y2="300"/>
           <line x1="200" y1="180" x2="96" y2="240"/>
-          <line x1="200" y1="180" x2="96" y2="120"/>
         </g>
         <g class="compass-nodes">
           <circle cx="200" cy="60" r="14"/>
-          <circle cx="304" cy="120" r="14"/>
           <circle cx="304" cy="240" r="14"/>
-          <circle cx="200" cy="300" r="14"/>
           <circle cx="96" cy="240" r="14"/>
-          <circle cx="96" cy="120" r="14"/>
         </g>
         <g class="compass-labels">
-          <text x="200" y="36" text-anchor="middle">Teknik</text>
-          <text x="324" y="125" text-anchor="start">Sains</text>
-          <text x="324" y="245" text-anchor="start">Bisnis</text>
-          <text x="200" y="336" text-anchor="middle">Sosial</text>
-          <text x="76" y="245" text-anchor="end">Seni</text>
-          <text x="76" y="125" text-anchor="end">Pendidikan</text>
+          <text x="200" y="36" text-anchor="middle">Hukum Ekonomi Syariah</text>
+          <text x="304" y="278" text-anchor="middle">Pendidikan Agama Islam</text>
+          <text x="96" y="278" text-anchor="middle">Al-Qur&#39;an &amp; Tafsir</text>
         </g>
         <circle class="compass-ring" cx="200" cy="180" r="38"/>
         <circle class="compass-core" cx="200" cy="180" r="30"/>
@@ -58,5 +52,12 @@
       </svg>
     </div>
   </main>
+  <script src="js/sound-manager.js"></script>
+  <script>
+    // Memutar backsound saat halaman dibuka / saat interaksi pertama
+    document.addEventListener("DOMContentLoaded", () => {
+      SoundManager.playBGM();
+    });
+  </script>
 </body>
 </html>

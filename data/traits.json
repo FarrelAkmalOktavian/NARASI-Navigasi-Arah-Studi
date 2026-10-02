@@ -2,37 +2,37 @@
   {
     "id": "analytical",
     "name": "Analitis",
-    "description": "Kemampuan berpikir logis, teliti, dan berbasis data.",
-    "max_score": 48
+    "description": "Berpikir logis, runtut, dan teliti dalam menalar suatu persoalan.",
+    "max_score": 21
   },
   {
-    "id": "creativity",
-    "name": "Kreativitas",
-    "description": "Kecenderungan menghasilkan ide dan pendekatan baru.",
-    "max_score": 48
+    "id": "economic",
+    "name": "Ekonomi",
+    "description": "Ketertarikan pada ekonomi, keuangan, dan transaksi.",
+    "max_score": 18
+  },
+  {
+    "id": "teaching",
+    "name": "Mengajar",
+    "description": "Minat membimbing, mengajar, dan menjelaskan kepada orang lain.",
+    "max_score": 22
   },
   {
     "id": "social",
     "name": "Sosial",
-    "description": "Kepedulian dan kemampuan bekerja sama dengan orang lain.",
-    "max_score": 57
+    "description": "Empati dan kemampuan berinteraksi dengan banyak orang.",
+    "max_score": 17
   },
   {
-    "id": "leadership",
-    "name": "Kepemimpinan",
-    "description": "Kemampuan mengarahkan, mengorganisir, dan mengambil keputusan.",
-    "max_score": 47
+    "id": "language",
+    "name": "Bahasa",
+    "description": "Ketertarikan pada bahasa Arab dan menelaah teks.",
+    "max_score": 25
   },
   {
-    "id": "technical",
-    "name": "Teknis",
-    "description": "Minat membuat, merakit, dan mengoperasikan sesuatu secara praktis.",
-    "max_score": 43
-  },
-  {
-    "id": "curiosity",
-    "name": "Keingintahuan",
-    "description": "Dorongan untuk meneliti, mempelajari, dan memahami hal baru.",
-    "max_score": 40
+    "id": "spiritual",
+    "name": "Spiritual",
+    "description": "Kedalaman penghayatan dan minat pada nilai-nilai keagamaan.",
+    "max_score": 14
   }
 ]
